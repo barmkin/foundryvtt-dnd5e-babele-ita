@@ -1,0 +1,38 @@
+{
+  "name": "foundryvtt-dnd5e-babele-ita",
+  "title": "DnD5e Traduzione Italiana compatibile con Babele",
+  "description": "Traduzione in italiano alternativa per Dungeons and Dragons 5a Edizione",
+  "version": "0.1",
+  "minimumCoreVersion": "0.8.5",
+  "compatibleCoreVersion": "9",
+  "systems": [
+    "dnd5e"
+  ],
+  "minimumSystemVersion": "1.5.2",
+  "dependencies": [
+    {
+      "name": "babele",
+      "type": "module"
+    }
+  ],
+  "original_authors": "ariakas81, Simone, MrDaerlic, ciuei, DMage, Floppy, heirold, Elia.Hard",
+  "author": "Barmkin",
+  "esmodules": [
+    "babele-register.js"
+  ],
+  "scripts": [],
+  "styles": [
+    "./style.css"
+  ],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "it",
+      "name": "Italian",
+      "path": "it.json"
+    }
+  ],
+  "url": "https://github.com/barmkin/foundryvtt-dnd5e-babele-ita",
+  "manifest": "https://github.com/barmkin/foundryvtt-dnd5e-babele-ita/raw/master/it-IT/module.json",
+  "download": "https://github.com/barmkin/foundryvtt-dnd5e-babele-ita/archive/master.zip"
+}
